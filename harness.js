@@ -6,3 +6,6 @@ export function measure(fn, iterations = 1000) {
 }
 
 // CI config prototype
+
+// high resolution timing fallback
+export const now = () => performance.now();
